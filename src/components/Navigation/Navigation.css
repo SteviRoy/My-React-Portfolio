@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #e9ecef;
+}
+
+.nav-item.active {
+  font-weight: bold;
+  background-color: #dee2e6;
+}
