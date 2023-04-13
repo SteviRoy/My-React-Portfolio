@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import Project from "../Project/Project";
-import projectData from "../../data/projects.json";
+import projectData from "../../data/portfolio.json";
 
 const Portfolio = () => {
   return (
