@@ -1,0 +1,15 @@
+.portfolio {
+  padding: 2rem 0;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
